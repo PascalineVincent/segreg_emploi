@@ -148,6 +148,12 @@ window.Quarto = {
 <span class="menu-text">Discussion</span></a>
   </li>  
 </ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="https://pascalinevincent.github.io/site/"> 
+<span class="menu-text">Pascaline Vincent</span></a>
+  </li>  
+</ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
@@ -165,7 +171,8 @@ window.Quarto = {
   <ul class="collapse">
   <li><a href="#la-formule" id="toc-la-formule" class="nav-link active" data-scroll-target="#la-formule">La formule</a></li>
   <li><a href="#les-quatre-profils" id="toc-les-quatre-profils" class="nav-link" data-scroll-target="#les-quatre-profils">Les quatre profils</a></li>
-  <li><a href="#distribution" id="toc-distribution" class="nav-link" data-scroll-target="#distribution">Distribution</a></li>
+  <li><a href="#les-quatre-profils-en-chiffres" id="toc-les-quatre-profils-en-chiffres" class="nav-link" data-scroll-target="#les-quatre-profils-en-chiffres">Les quatre profils en chiffres</a></li>
+  <li><a href="#distribution-du-desalignement" id="toc-distribution-du-desalignement" class="nav-link" data-scroll-target="#distribution-du-desalignement">Distribution du desalignement</a></li>
   </ul>
 </nav>
     </div>
@@ -175,7 +182,7 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Le desalignement de genre</h1>
-<p class="subtitle lead">Mesurer lecart entre le genre et la norme</p>
+<p class="subtitle lead">Mesurer l’ecart entre le genre d’un individu et la norme de genre de sa profession</p>
 </div>
 
 
@@ -196,63 +203,117 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="la-formule">La formule</h2>
 <p>Pour chaque individu <span class="math inline">\(i\)</span> dans la profession <span class="math inline">\(k\)</span> :</p>
 <p><span class="math display">\[\delta_i = \text{pct\_femmes}_{k} - \mathbb{1}[\text{femme}_i]\]</span></p>
+<ul>
+<li><span class="math inline">\(\text{pct\_femmes}_{k}\)</span> = part de femmes dans la profession <span class="math inline">\(k\)</span></li>
+<li><span class="math inline">\(\mathbb{1}[\text{femme}_i]\)</span> = 1 si femme, 0 si homme</li>
+</ul>
+<p><strong>Interpretation</strong> :</p>
+<ul>
+<li>Un homme dans une profession tres feminine (pct = 0,87) : delta = +0,87 – fort desalignement</li>
+<li>Une femme dans une profession tres masculine (pct = 0,02) : delta = -0,98 – fort desalignement</li>
+<li>Une femme dans une profession feminine (pct = 0,87) : delta = -0,13 – faible desalignement</li>
+</ul>
 <hr>
 </section>
 <section id="les-quatre-profils" class="level2">
 <h2 class="anchored" data-anchor-id="les-quatre-profils">Les quatre profils</h2>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 22%">
+<col style="width: 31%">
+<col style="width: 45%">
+</colgroup>
 <thead>
 <tr class="header">
 <th>Profil</th>
 <th>Direction</th>
+<th>Interpretation</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Femme conforme</td>
 <td>delta &lt; 0</td>
+<td>Identite plus feminine que la norme feminine</td>
 </tr>
 <tr class="even">
 <td>Femme atypique</td>
 <td>delta &gt; 0</td>
+<td>Identite plus masculine que la norme feminine</td>
 </tr>
 <tr class="odd">
 <td>Homme atypique</td>
 <td>delta &lt; 0</td>
+<td>Identite plus feminine que la norme masculine</td>
 </tr>
 <tr class="even">
 <td>Homme conforme</td>
 <td>delta &gt; 0</td>
+<td>Identite plus masculine que la norme masculine</td>
 </tr>
 </tbody>
 </table>
 <hr>
 </section>
-<section id="distribution" class="level2">
-<h2 class="anchored" data-anchor-id="distribution">Distribution</h2>
-<div class="cell">
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: le package 'tidyverse' a été compilé avec la version R 4.4.2</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: le package 'ggplot2' a été compilé avec la version R 4.4.3</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: le package 'tibble' a été compilé avec la version R 4.4.2</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: le package 'tidyr' a été compilé avec la version R 4.4.3</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: le package 'dplyr' a été compilé avec la version R 4.4.3</code></pre>
-</div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: le package 'lubridate' a été compilé avec la version R 4.4.2</code></pre>
-</div>
+<section id="les-quatre-profils-en-chiffres" class="level2">
+<h2 class="anchored" data-anchor-id="les-quatre-profils-en-chiffres">Les quatre profils en chiffres</h2>
+<div class="cell" data-tbl-cap="Effectifs et desalignement moyen par profil">
 <div class="cell-output-display">
-<div>
+<table class="caption-top table table-sm table-striped small">
+<caption>Effectifs et desalignement moyen par profil</caption>
+<colgroup>
+<col style="width: 36%">
+<col style="width: 8%">
+<col style="width: 29%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Profil</th>
+<th style="text-align: right;">N</th>
+<th style="text-align: right;">Desalignement moyen</th>
+<th style="text-align: right;">Part femmes moy.</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Femme en metier feminin</td>
+<td style="text-align: right;">61722</td>
+<td style="text-align: right;">-0.273</td>
+<td style="text-align: right;">0.727</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Femme en metier masculin</td>
+<td style="text-align: right;">12696</td>
+<td style="text-align: right;">-0.693</td>
+<td style="text-align: right;">0.307</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Homme en metier feminin</td>
+<td style="text-align: right;">26100</td>
+<td style="text-align: right;">0.646</td>
+<td style="text-align: right;">0.646</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Homme en metier masculin</td>
+<td style="text-align: right;">44611</td>
+<td style="text-align: right;">0.197</td>
+<td style="text-align: right;">0.197</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<hr>
+</section>
+<section id="distribution-du-desalignement" class="level2">
+<h2 class="anchored" data-anchor-id="distribution-du-desalignement">Distribution du desalignement</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="deviation_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="deviation_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
+<figcaption>Distribution de l’indice de desalignement.</figcaption>
 </figure>
 </div>
 </div>
