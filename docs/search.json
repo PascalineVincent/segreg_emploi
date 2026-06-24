@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Métiers de femmes, métiers d’hommes",
+    "title": "Metiers de femmes, metiers d’hommes",
     "section": "",
-    "text": "Ce projet mesure le désalignement entre le genre d’un individu et la norme de genre de sa profession, et teste ses effets sur le temps partiel subi, le sous-emploi et l’ancienneté."
+    "text": "Les metiers sont massivement segreges par genre en France. Infirmieres, aides a domicile, enseignantes d’un cote ; macons, chauffeurs, ingenieursdel’autre. Ce site pose deux questions complementaires sur les individus qui occupent des metiers atypiques pour leur genre."
   },
   {
     "objectID": "index.html#etre-un-homme-dans-un-metier-a-dominante-feminine-ou-une-femme-dans-un-metier-masculin-change-t-il-les-conditions-de-travail",
@@ -30,9 +30,9 @@
   {
     "objectID": "index.html#ce-projet-en-lien-avec-les-autres",
     "href": "index.html#ce-projet-en-lien-avec-les-autres",
-    "title": "Métiers de femmes, métiers d’hommes",
+    "title": "Metiers de femmes, metiers d’hommes",
     "section": "Ce projet en lien avec les autres",
-    "text": "Ce projet en lien avec les autres\n\n\n\n\n\n\nCe site s’inscrit dans un programme de recherche sur l’identité de genre et ses effets économiques.\n\nMesure de l’identité – indices ACM et LASSO sur les pratiques culturelles\nQui tricote, qui pêche ? – ségrégation des pratiques culturelles\nLe coût d’être soi-même ? – coût de déviation dans les loisirs\nCe site – désalignement de genre sur le marché du travail\n\n\n\n\n\n\n\nPage\nPour qui ?\nDurée\n\n\n\n\nSégrégation des métiers\nTout le monde\n~5 min\n\n\nLe désalignement\nTout le monde\n~6 min\n\n\nRésultats\nTout le monde\n~6 min\n\n\nDiscussion\nChercheur.ses\n~5 min"
+    "text": "Ce projet en lien avec les autres\n\n\n\n\n\n\nCe site s’inscrit dans un programme de recherche sur l’identite de genre et ses effets economiques.\n\nMesure de l’identite – indices ACM et LASSO\nQui tricote, qui peche ? – segregation des pratiques culturelles\nLe cout d’etre soi-meme ? – cout de deviation dans les loisirs\nCe site – desalignement de genre sur le marche du travail"
   },
   {
     "objectID": "index.html#etre-un-homme-dans-un-métier-à-dominante-féminine-ou-une-femme-dans-un-métier-masculin-change-t-il-les-conditions-de-travail",
@@ -88,7 +88,7 @@
     "href": "discussion.html",
     "title": "Discussion",
     "section": "",
-    "text": "Ce projet était parti d’une question inspirée par Akerlof & Kranton : le désalignement entre genre et norme professionnelle coûte-t-il quelque chose à l’individu ? Les résultats permettent de distinguer deux mécanismes très différents.\n\n\n  \n    \n    L'individu dont le genre s'écarte de la norme de sa profession subit un coût identitaire : moins bien intégré, moins bien traité, moins stable.\n    Prédiction : l'effet de δ est négatif pour les atypiques, indépendamment du type de métier.\n    Partiellement confirmé\n  \n\n  \n    \n    Les métiers féminins sont structurellement précaires — temps partiel imposé, faibles salaires, forte rotation — indépendamment du genre de leurs occupants.\n    Prédiction : l'effet de δ reflète la féminisation du métier, pas le désalignement individuel.\n    Confirmé"
+    "text": "Ce projet a pose deux questions sur les individus dont le genre est atypique pour leur profession. Les reponses dessinent une image coherente mais nuancee.\n\n\n  \n    \n    \n      Ce n'est pas le desalignement individuel qui coute --\n      c'est la feminisation du metier qui concentre la precarite.\n      Les femmes en metier feminin cumulent temps partiel subi,\n      sous-emploi et faible anciennete. Les hommes dans ces memes\n      metiers subissent le temps partiel mais pas le reste.\n    \n    \n      La devalorisation est structurelle, pas individuelle.\n    \n  \n\n  \n    \n    \n      Le desalignement structure la mobilite de facon asymetrique.\n      La femme en metier masculin dans le prive change plus souvent de metier.\n      L'homme en metier feminin dans le public quitte plus souvent l'emploi.\n      Dans les deux cas, l'atypisme genere de l'instabilite -- mais\n      dans des contextes tres differents.\n    \n    \n      Le cout de l'atypisme est sectoriel et genere."
   },
   {
     "objectID": "discussion.html#deux-théories-deux-prédictions",
@@ -116,14 +116,14 @@
     "href": "discussion.html#les-limites",
     "title": "Discussion",
     "section": "Les limites",
-    "text": "Les limites\n\n\n  \n    Limite majeure\n     Pas de mesure d'identité individuelle\n    \n      Le désalignement est mesuré par l'écart entre sexe déclaré et norme \n      professionnelle — pas par une mesure d'identité continue comme dans \n      les projets précédents. On ne peut pas distinguer une femme \n      à identité très féminine dans un métier masculin d'une femme \n      à identité plus androgyne dans le même métier.\n    \n    \n      Extension naturelle : apparier ces données avec \n      une mesure d'identité externe (score LASSO de l'EPC par exemple, \n      via imputation par âge/diplôme/secteur).\n    \n  \n\n  \n    Limite importante\n    &lt;-&gt; Sélection dans les professions\n    \n      Les individus ne sont pas assignés aléatoirement à leur profession. \n      Les femmes qui choisissent des métiers masculins sont probablement \n      différentes sur des dimensions non observées (ambition, tolérance \n      au risque, identité de genre). L'effet estimé mêle désalignement \n      et sélection.\n    \n  \n\n  \n    Limite secondaire\n     Absence de salaire\n    \n      L'outcome naturel pour tester la dévalorisation des métiers féminins \n      est le salaire — absent de l'Enquête Emploi de base. \n      Le temps partiel subi et le sous-emploi en sont des proxies \n      imparfaites.\n    \n    \n      Extension : apparier avec le module EECSA \n      (Enquête Emploi Complément Salaires) disponible sur demande INSEE."
+    "text": "Les limites\n\n\n  \n    Limite majeure\n    Pas de mesure d'identite individuelle\n    \n      Le desalignement est mesure par l'ecart entre sexe declare et norme\n      professionnelle -- pas par une mesure d'identite continue.\n      On ne peut pas distinguer une femme a identite tres feminine\n      dans un metier masculin d'une femme a identite androgyne.\n    \n    \n      Extension naturelle : apparier avec une mesure d'identite externe\n      (score LASSO de l'EPC via imputation par age, diplome, secteur).\n    \n  \n\n  \n    Limite importante\n    Selection dans les professions\n    \n      Les individus ne sont pas assignes aleatoirement a leur profession.\n      Les femmes qui choisissent des metiers masculins different probablement\n      sur des dimensions non observees. L'effet estime mele desalignement\n      et selection.\n    \n  \n\n  \n    Limite secondaire\n    Absence de salaire\n    \n      L'outcome naturel pour tester la devalorisation est le salaire --\n      absent de l'Enquete Emploi de base.\n      Le module EECSA permettrait de completer l'analyse."
   },
   {
     "objectID": "discussion.html#perspectives",
     "href": "discussion.html#perspectives",
     "title": "Discussion",
     "section": "Perspectives",
-    "text": "Perspectives\n\n\n  \n    01\n    Intégrer l'identité continue\n    Apparier avec une mesure d'identité individuelle permettrait de distinguer l'effet du désalignement de genre de l'effet de la féminisation du secteur.\n  \n\n  \n    02\n    Ajouter le salaire\n    Le module EECSA permettrait de tester directement la dévalorisation salariale des métiers féminins — l'outcome le plus documenté dans la littérature.\n  \n\n  \n    03\n    Dynamiques temporelles\n    La féminisation des métiers évolue dans le temps. Tester si la dévalorisation suit ou précède la féminisation — en utilisant les vagues successives de l'Enquête Emploi.\n  \n\n  \n    04\n    Hétérogénéité sectorielle\n    L'effet de la féminisation est-il le même dans le public et le privé ? Le secteur public étant plus protégé, le coût de désalignement devrait y être plus faible.\n  \n\n\n\n\n\n\n\n\n\nNoteProgramme de recherche complet\n\n\n\n\nMesure de l’identité – indices ACM et LASSO\nQui tricote, qui pêche ? – ségrégation des pratiques culturelles\nLe coût d’être soi-même ? – coût de déviation dans les loisirs\nCe site – désalignement de genre sur le marché du travail\n\nCode disponible sur GitHub."
+    "text": "Perspectives\n\n\n  \n    01\n    Ajouter le salaire\n    Le module EECSA (Enquete Emploi Complement Salaires) permettrait\n    de tester directement la devalorisation salariale -- l'outcome\n    le plus documente dans la litterature.\n  \n\n  \n    02\n    Integrer l'identite continue\n    Apparier avec une mesure d'identite individuelle (score LASSO de l'EPC)\n    permettrait de distinguer l'effet du desalignement de genre\n    de l'effet de la feminisation du secteur.\n  \n\n  \n    03\n    Dynamiques temporelles\n    Les vagues successives de l'Enquete Emploi permettraient de tester\n    si la devalorisation precede ou suit la feminisation d'un metier --\n    une question causale centrale dans la litterature.\n  \n\n  \n    04\n    Hors marche du travail\n    Combiner avec les resultats du projet sur les loisirs culturels :\n    les individus desalignes professionnellement le sont-ils aussi\n    dans leurs pratiques culturelles -- et ces deux formes de\n    desalignement s'additionnent-elles ?\n  \n\n\n\n\n\n\n\n\n\nNoteProgramme de recherche complet\n\n\n\n\nMesure de l’identite – indices ACM et LASSO\nQui tricote, qui peche ? – segregation des pratiques culturelles\nLe cout d’etre soi-meme ? – cout de deviation dans les loisirs\nCe site – desalignement de genre sur le marche du travail\n\nCode disponible sur GitHub."
   },
   {
     "objectID": "deviation.html",
@@ -187,5 +187,110 @@
     "title": "Le desalignement de genre",
     "section": "Distribution",
     "text": "Distribution\n\n\nWarning: le package 'tidyverse' a été compilé avec la version R 4.4.2\n\n\nWarning: le package 'ggplot2' a été compilé avec la version R 4.4.3\n\n\nWarning: le package 'tibble' a été compilé avec la version R 4.4.2\n\n\nWarning: le package 'tidyr' a été compilé avec la version R 4.4.3\n\n\nWarning: le package 'dplyr' a été compilé avec la version R 4.4.3\n\n\nWarning: le package 'lubridate' a été compilé avec la version R 4.4.2"
+  },
+  {
+    "objectID": "transitions.html",
+    "href": "transitions.html",
+    "title": "Mobilite professionnelle",
+    "section": "",
+    "text": "Les individus dont le genre est atypique pour leur profession changent-ils de situation professionnelle plus souvent ? On suit les memes individus sur plusieurs trimestres consecutifs et on observe si, entre deux trimestres, ils quittent l’emploi ou changent de metier."
+  },
+  {
+    "objectID": "transitions.html#la-question",
+    "href": "transitions.html#la-question",
+    "title": "Mobilite professionnelle",
+    "section": "",
+    "text": "Les individus dont le genre est atypique pour leur profession changent-ils de situation professionnelle plus souvent ? On suit les memes individus sur plusieurs trimestres consecutifs et on observe si, entre deux trimestres, ils quittent l’emploi ou changent de metier."
+  },
+  {
+    "objectID": "transitions.html#taux-de-transition-bruts-par-profil",
+    "href": "transitions.html#taux-de-transition-bruts-par-profil",
+    "title": "Mobilite professionnelle",
+    "section": "Taux de transition bruts par profil",
+    "text": "Taux de transition bruts par profil\n\n\n\n\n\nTaux de transition par profil (bruts, sans controles). La femme en metier masculin se demarque nettement."
+  },
+  {
+    "objectID": "transitions.html#portrait-des-quatre-profils",
+    "href": "transitions.html#portrait-des-quatre-profils",
+    "title": "Mobilite professionnelle",
+    "section": "Portrait des quatre profils",
+    "text": "Portrait des quatre profils\n\n\n\nCaracteristiques socio-demographiques par profil\n\n\n\n\n\n\n\n\n\n\n\nProfil\nN\nAge moyen\n% secteur public\n% couple\n% diplome sup.\n% temps plein\n\n\n\n\nFemme metier feminin\n35162\n34.3\n76.3\n63.2\n49.1\n71.2\n\n\nFemme metier masculin\n7084\n32.2\n89.5\n62.6\n47.4\n81.9\n\n\nHomme metier feminin\n14571\n33.3\n87.9\n63.9\n54.7\n88.3\n\n\nHomme metier masculin\n25425\n32.9\n92.2\n65.2\n32.4\n93.5"
+  },
+  {
+    "objectID": "transitions.html#resultats-effet-du-desalignement-sur-la-mobilite",
+    "href": "transitions.html#resultats-effet-du-desalignement-sur-la-mobilite",
+    "title": "Mobilite professionnelle",
+    "section": "Resultats : effet du desalignement sur la mobilite",
+    "text": "Resultats : effet du desalignement sur la mobilite\n\n\n\n\n\nCoefficients du desalignement sur trois outcomes de mobilite, par profil. Les barres colorees sont significatives au seuil 5%."
+  },
+  {
+    "objectID": "transitions.html#heterogeneite-public-prive",
+    "href": "transitions.html#heterogeneite-public-prive",
+    "title": "Mobilite professionnelle",
+    "section": "Heterogeneite public / prive",
+    "text": "Heterogeneite public / prive\n\n\n\n\n\nComparaison des effets dans le secteur public et le secteur prive. Le desalignement structure davantage la mobilite dans le public."
+  },
+  {
+    "objectID": "transitions.html#ce-que-ca-dit",
+    "href": "transitions.html#ce-que-ca-dit",
+    "title": "Mobilite professionnelle",
+    "section": "Ce que ca dit",
+    "text": "Ce que ca dit\nLes resultats dessinent quatre logiques distinctes :\nHomme en metier masculin – forte mobilite ascendante. Plus le metier est masculin, plus il quitte et change. C’est la mobilite caracteristique des secteurs masculins (batiment, industrie, forces de l’ordre) – une norme de rotation forte, pas un cout de desalignement.\nHomme en metier feminin – depart de l’emploi significatif dans le public uniquement. Dans les professions feminines tres codifiees du secteur public (soin, enseignement), l’homme atypique est moins stable – signal d’une pression normative institutionnelle.\nFemme en metier feminin – retention dans les deux secteurs. Plus le metier est feminin, moins elle quitte l’emploi. Les metiers tres feminins retiennent les femmes – peut-etre faute d’alternatives, ou par ancrage dans des reseaux professionnels feminins.\nFemme en metier masculin – instabilite dans le prive. Elle change de metier plus souvent dans le prive – signal de friction d’integration dans des secteurs peu accueillants pour les femmes.\n\n\n\n\n\n\n\nImportantLe resultat central\n\n\n\nLe desalignement de genre structure la mobilite professionnelle de facon asymetrique. Ce n’est pas un cout generalise – c’est un effet specifique a certains profils et certains secteurs. La femme en metier masculin dans le prive et l’homme en metier feminin dans le public sont les deux profils les plus exposes."
+  },
+  {
+    "objectID": "discussion.html#ce-quon-a-trouve",
+    "href": "discussion.html#ce-quon-a-trouve",
+    "title": "Discussion",
+    "section": "",
+    "text": "Ce projet a pose deux questions sur les individus dont le genre est atypique pour leur profession. Les reponses dessinent une image coherente mais nuancee.\n\n\n  \n    \n    \n      Ce n'est pas le desalignement individuel qui coute --\n      c'est la feminisation du metier qui concentre la precarite.\n      Les femmes en metier feminin cumulent temps partiel subi,\n      sous-emploi et faible anciennete. Les hommes dans ces memes\n      metiers subissent le temps partiel mais pas le reste.\n    \n    \n      La devalorisation est structurelle, pas individuelle.\n    \n  \n\n  \n    \n    \n      Le desalignement structure la mobilite de facon asymetrique.\n      La femme en metier masculin dans le prive change plus souvent de metier.\n      L'homme en metier feminin dans le public quitte plus souvent l'emploi.\n      Dans les deux cas, l'atypisme genere de l'instabilite -- mais\n      dans des contextes tres differents.\n    \n    \n      Le cout de l'atypisme est sectoriel et genere."
+  },
+  {
+    "objectID": "discussion.html#lhistoire-commune",
+    "href": "discussion.html#lhistoire-commune",
+    "title": "Discussion",
+    "section": "L’histoire commune",
+    "text": "L’histoire commune\nLes deux analyses racontent la meme histoire sous deux angles :\nLa feminisation d’un metier concentre la precarite – temps partiel, sous-emploi, rotation elevee. C’est une caracteristique structurelle des secteurs, pas une penalite individuelle pour atypisme.\nMais l’atypisme individuel a ses propres effets – sur la mobilite. La femme qui entre dans un metier masculin (surtout dans le prive) y est moins stable. L’homme qui entre dans un metier feminin (surtout dans le public) en repart plus souvent. Ces effets sont separes de la devalorisation structurelle.\n\n  \n    Feminisation du metier\n    Temps partiel subi +++Sous-emploi +++Anciennete ---\n    Affecte tous les occupants du metier,hommes et femmes\n  \n  +\n  \n    Atypisme individuel\n    Mobilite professionnelleInstabilite sectorielle\n    Affecte specifiquement les individusdesalignes -- public vs prive\n  \n  =\n  \n    Cout total\n    Cumul pour la femme en metier femininFriction pour la femme en metier masculin"
+  },
+  {
+    "objectID": "discussion.html#deux-theories-deux-contributions",
+    "href": "discussion.html#deux-theories-deux-contributions",
+    "title": "Discussion",
+    "section": "Deux theories, deux contributions",
+    "text": "Deux theories, deux contributions\nPar rapport a la litterature sur la devalorisation (Levanon et al., 2009 ; Goldin, 2014) : on confirme que la feminisation d’un metier degrade les conditions de travail – mais on montre que cet effet touche aussi les hommes dans ces metiers, pas seulement les femmes.\nPar rapport a la theorie d’Akerlof et Kranton (2000) : le cout de deviation identitaire existe dans le domaine professionnel, mais il se manifeste sur la mobilite (instabilite), pas sur les conditions de travail au sens strict. C’est coherent avec les resultats du projet precedent sur les loisirs – le cout est comportemental, pas psychologique."
+  },
+  {
+    "objectID": "index.html#deux-questions-une-histoire",
+    "href": "index.html#deux-questions-une-histoire",
+    "title": "Metiers de femmes, metiers d’hommes",
+    "section": "Deux questions, une histoire",
+    "text": "Deux questions, une histoire\n\n\n  \n    Question 1\n    Les conditions de travail\n    \n      Un homme dans un metier a dominante feminine subit-il davantage le temps partiel ?\n      Une femme dans un metier masculin a-t-elle moins d'anciennete ?\n    \n    \n      Resultat : ce n'est pas le desalignement individuel qui coute --\n      c'est la feminisation du metier qui concentre la precarite.\n    \n    Voir les resultats\n  \n\n  \n    Question 2\n    La mobilite professionnelle\n    \n      Les individus desalignes quittent-ils leur profession plus souvent ?\n      Est-ce different dans le public et le prive ?\n    \n    \n      Resultat : la femme en metier masculin dans le prive\n      et l'homme en metier feminin dans le public\n      sont les profils les plus instables.\n    \n    Voir les resultats"
+  },
+  {
+    "objectID": "index.html#le-parcours-recommande",
+    "href": "index.html#le-parcours-recommande",
+    "title": "Metiers de femmes, metiers d’hommes",
+    "section": "Le parcours recommande",
+    "text": "Le parcours recommande\n\n\n  \n    01\n    \n      La segregation\n      Pourquoi les metiers sont-ils si peu mixtes -- et pourquoi ca compte.\n      -&gt; Les metiers et leurs normes\n    \n  \n\n  -&gt;\n\n  \n    02\n    \n      Le desalignement\n      Comment mesurer l'ecart entre le genre d'un individu et la norme de sa profession.\n      -&gt; L'indice\n    \n  \n\n  -&gt;\n\n  \n    03\n    \n      Conditions\n      Temps partiel subi, sous-emploi, anciennete -- qui paie le prix de l'atypisme ?\n      -&gt; Question 1\n    \n  \n\n  -&gt;\n\n  \n    04\n    \n      Mobilite\n      Quittent-ils leur emploi ? Changent-ils de metier ? Public vs prive.\n      -&gt; Question 2\n    \n  \n\n  -&gt;\n\n  \n    05\n    \n      Discussion\n      Ce que les deux analyses disent ensemble -- et ce qu'elles ouvrent.\n      -&gt; Synthese"
+  },
+  {
+    "objectID": "conditions.html",
+    "href": "conditions.html",
+    "title": "Résultats",
+    "section": "",
+    "text": "Coefficients du désalignement delta sur trois outcomes, pour les quatre profils. Les barres colorées sont significatives au seuil 5 %."
+  },
+  {
+    "objectID": "conditions.html#vue-densemble-12-modèles",
+    "href": "conditions.html#vue-densemble-12-modèles",
+    "title": "Résultats",
+    "section": "",
+    "text": "Coefficients du désalignement delta sur trois outcomes, pour les quatre profils. Les barres colorées sont significatives au seuil 5 %."
+  },
+  {
+    "objectID": "conditions.html#résultat-par-profil",
+    "href": "conditions.html#résultat-par-profil",
+    "title": "Résultats",
+    "section": "Résultat par profil",
+    "text": "Résultat par profil\n\n\n  \n    Homme en métier masculin\n    \n      \n        Temps partiel subi\n        +0,08 ***\n        Plus le métier est masculin, plus le TP subi augmente légèrement\n      \n      \n        Ancienneté\n        +0,34 ***\n        Plus le métier est masculin, plus l'ancienneté est élevée → stabilité récompensée\n      \n      \n        Sous-emploi\n        ns\n        Pas d'effet\n      \n    \n  \n\n  \n    Homme en métier féminin\n    \n      \n        Temps partiel subi\n        +0,40 ***\n        Fort effet : il absorbe les conditions du métier féminin\n      \n      \n        Ancienneté\n        ns\n        Pas d'effet sur la stabilité\n      \n      \n        Sous-emploi\n        ns\n        Pas d'effet\n      \n    \n  \n\n  \n    Femme en métier féminin\n    \n      \n        Temps partiel subi\n        +0,37 ***\n        Plus le métier est féminin, plus le TP subi augmente\n      \n      \n        Sous-emploi\n        +0,22 ***\n        Les métiers très féminins concentrent le sous-emploi\n      \n      \n        Ancienneté\n        −0,23 ***\n        Moins d'ancienneté dans les métiers les plus féminins → rotation élevée\n      \n    \n  \n\n  \n    Femme en métier masculin\n    \n      \n        Temps partiel subi\n        −0,10 ***\n        Moins de TP subi dans les métiers masculins → bénéfice des conditions\n      \n      \n        Ancienneté\n        −0,16 *\n        Moins d'ancienneté → rotation plus forte dans ces métiers\n      \n      \n        Sous-emploi\n        ns\n        Pas d'effet\n      \n    \n  \n\n\n\n\n\n\n\n\n\nImportantLe résultat central\n\n\n\nCe n’est pas le désalignement individuel qui coûte – c’est la féminisation du métier. Les femmes dans les métiers féminins cumulent temps partiel subi, sous-emploi et faible ancienneté. Les hommes dans ces mêmes métiers subissent le temps partiel mais pas le reste. Les femmes dans les métiers masculins échappent au temps partiel subi mais perdent en stabilité.\n\n\n-&gt; Discussion"
   }
 ]
